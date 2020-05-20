@@ -6,8 +6,8 @@ spec:
     replicas: 8
     selector:
          matchExpressions:
-             -   { key: env,  operator: In,  values: [ production ] }
-             -   { key: region,  operator: In,  values: [ IN ] }
+             -  { key: env,  operator: In,  values: [ production ] }
+             -  { key: region,  operator: In,  values: [ IN ] }
     template:
          metadata:
               name: myweb-pod
